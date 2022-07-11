@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url('/code/assets/images/login_bg.jpg') no-repeat center;
+    background-size: cover; 
+}
+.loginAndRegBox {
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+.title-box {
+    height: 60px;
+    background: url(/code/assets/images/login_title.png) no-repeat center;
+}
+.layui-form {
+    padding: 0 30px;
+}
+/* 注册框 */
+.reg-box {
+    display: none;
+}
+/* 跳转链接 */
+.links {
+    display: flex;
+    /* justify-content 定义了项目在主轴上的对齐方式 */
+    /* flex-start（默认值）：左对齐
+    flex-end：右对齐
+    center： 居中
+    space-between：两端对齐，项目之间的间隔都相等。
+    space-around：每个项目两侧的间隔相等。 */
+    justify-content: flex-end;
+}
+
+.links a {
+    font-size: 14px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+/* 图标 */
+.layui-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/* 输入框 */
+.layui-input {
+    padding-left: 32px;
+}
