@@ -1,0 +1,54 @@
+/* 底部固定区域 */
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+/* 第三方图标 */
+.iconfont {
+    margin-right: 8px;
+}
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+/* 内容主体区域 */
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.layui-body {
+    overflow: hidden;
+}
+/* 清除 默认的 a链接 动画 */
+a {
+    transition: none !important;
+}
+/* 用户头像信息 */
+.user-info {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.layui-side-scroll .user-info {
+    border-bottom: 1px solid #282b33;
+}
+/* 头像 */
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+/* 文字头像 */
+.text-avatar {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #009688;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    margin-right: 10px;
+}
