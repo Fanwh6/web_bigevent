@@ -14,7 +14,7 @@ $(function(){
             // 清空本地存储的 token
             localStorage.removeItem('token')
             // 跳转到登录页面
-            location.href = '/code/login.html'
+            location.href = '/login.html'
 
             // 关闭 confirm 询问框
             layer.close(index);

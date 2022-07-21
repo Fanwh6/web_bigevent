@@ -83,7 +83,7 @@ $(function (){
                 // 将登录成功得到的 token 值保存到 localStorage 中
                 localStorage.setItem('token',res.token)
                 // 登录成功，跳转到后台首页
-                location.href = '/code/index.html'
+                location.href = '/index.html'
             }
         })
     })
